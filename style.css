@@ -1,0 +1,162 @@
+
+header { 
+  position: fixed;
+   top: 0px; min-height: 25px;
+   left: 0px;
+   right: 0px;
+}
+
+#header-img { 
+  height: 60px; 
+  }
+
+a {
+    color:black;
+  }
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+}
+
+nav li {
+
+  margin: 0px 0px 0px 10px;
+}
+
+nav {
+  display: flex;
+ justify-content: space-between;
+background-color: white;
+color: black;
+}
+
+
+
+.tt {
+  padding: 0 20px;
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+p { text-align: center;
+  margin-bottom: 30px;
+  color: black;}
+
+h2 {text-align: center }
+ 
+
+.grid {
+  display: flex;
+  flex-direction: column;
+ justify-content: left;
+ border: 3px black;
+  color: black;}
+
+ 
+
+.grid li {
+  margin: 15px;
+  }
+
+.grid ul {
+ 
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;}
+
+@media (max-width: 650px) {
+    margin-top: 10px;
+    width: 100%;
+    padding: 50px; 
+    align-items: center;
+    }
+
+
+    iframe {
+      display: block;
+      margin: auto;
+    }
+
+
+#title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#title > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+#title input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#title input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0px;
+  border: 0px;
+  background-color: #f1c40f;
+}
+
+#title input[type='submit']:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+#service {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.service > .level {
+  background-color: white;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: none;
+  font-weight: 300;
+}
+
+.service > h2 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.service > button {
+  border: 0;
+  margin: 15px 15px;
+  background-color: #f1c40f;
+  font-weight: 800;
+}
+
+
